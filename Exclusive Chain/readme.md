@@ -1,6 +1,8 @@
 # Exclusive Chain
 
-One of typical use cases for Ableton Live racks is an instrument or effects path selector, when you want only one exclusive chain active at a time, with others disabled to save CPU resources. There's a recipe that involves mapping rack's chain selector and each device's on/off toggle to a single macro knob. 
+One of typical use cases for Ableton Live racks is an instrument or effects path selector, when you want only one exclusive chain active at a time, with others disabled to save CPU resources. There's a [recipe](https://help.ableton.com/hc/en-us/articles/360000727359-Using-the-chain-selector-in-a-Rack) that involves mapping rack's chain selector and each device's on/off toggle to a single macro knob. 
+
+![Preview](https://github.com/Maboroshy/Max-for-Live-Devices/blob/main/Exclusive%20Chain/Exclusive%20Chain.png?raw=true)
 
 My device does this without all these mappings and provides a knob that:
 - automatically attaches to the next rack on the track or chain, any type of rack (won't be useful with a drum rack)
