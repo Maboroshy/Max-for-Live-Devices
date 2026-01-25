@@ -4,7 +4,7 @@ One of typical use cases for Ableton Live racks is an instrument or effects path
 
 ![Preview](https://github.com/Maboroshy/Max-for-Live-Devices/blob/main/Exclusive%20Chain/Exclusive%20Chain.gif?raw=true)
 
-My device does this without all these mappings and provides a knob that:
+My device does this without all these mappings and provides a numberbox that:
 - automatically attaches to the next rack on the track or chain, any type of rack (won't be useful with a drum rack)
 - selects chosen chain putting the "blue hand" on it's first device
 - mutes all the other chains
@@ -14,6 +14,6 @@ My device does this without all these mappings and provides a knob that:
 
 Unlike chain selector mapping recipe you can add, remove or rearrange rack chains without needing to update any mappings.
 
-The device also provides +/- and chain index buttons for controller mapping. There's an option for the buttons to work only while the track is armed, which allows sharing controller mappings with similar devices on other tracks. The knob doesn't  respect this option and will always work. The buttons can't be used while the knob is mapped to a controller.
+The device also provides +/- and chain index buttons for controller mapping. There's an option for the buttons to work only while the track is armed, which allows sharing controller mappings with similar devices on other tracks. The numberbox  doesn't  respect this option and will always work. The buttons can't be used while the numberbox is mapped to a controller.
 
 The "blue hand" following chain selection can't be disabled. If you rely on the "blue hand" staying on a particular device, you'll have to disable the "Select Chain" option and use the rack's chain selector instead.
