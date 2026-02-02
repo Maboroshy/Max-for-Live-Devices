@@ -16,7 +16,7 @@ Unlike chain selector mapping recipe, you can add, remove or rearrange rack chai
 
 The device also provides +/- and chain index buttons for controller mapping. There's an option for the buttons to work only while the track is armed, which allows sharing controller mappings with similar devices on other tracks. The numberbox doesn't  respect this option and will always work. The buttons can't be used while the numberbox is mapped to a controller.
 
-The "blue hand" following chain selection can't be disabled. If you rely on the "blue hand" staying on a particular device and still need this option, you'll have to disable the "Select Chain" option and use the rack's chain selector instead.
+The "blue hand" following chain selection can't be disabled. If you rely on the "blue hand" staying on a particular device and want to active chain selection, you'll have to disable the "Select Chain" option and use the rack's chain selector instead.
 
 ## Changelog
 ### v1.1 - 02.02.2026
