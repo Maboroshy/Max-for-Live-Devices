@@ -6,6 +6,8 @@ When you mess up, you have to finish the record, delete the clip and start recor
 
 With this device you just play and hit save button only once, when you know it sounds right. It saves the number of played bars you set. 
 
+![](https://github.com/Maboroshy/Max-for-Live-Devices/blob/main/Retro%20Rec/Retro%20Rec.gif?raw=true)
+
 Here is what it does in detail:
 1. When transport is running and track is armed, the device starts recording to a temp clip. It always record what you play. The recording follows scene selection. Manually started clip recording is also treated as a temp clip. 
 2. The "Save" buttons save the selected number of last played bars as a permanent clip. At the end of the bar where you release the button the device trims the clip and starts playing it. 
@@ -19,8 +21,3 @@ These actions take some time, somewhere between 100 ms and 200 ms on my system. 
 The device only affects the track it is placed on, so you can use different options for each track. Add the device to each track you want to retro record. Save buttons on devices on different tracks can share controller mappings. Devices on unarmed tracks won't react to the buttons. 
 
 The device enforces and uses "1 bar" global launch quantization and cannot be automated.
-
-It by is also hosted with on GitHub with my other free devices:  
-[https://github.com/Maboroshy/Max-for-Live-Devices/](https://github.com/Maboroshy/Max-for-Live-Devices/)
-
-Licensed under the GNU Lesser General Public License v3.0 (LGPL‑3.0).
