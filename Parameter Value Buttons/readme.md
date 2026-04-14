@@ -18,4 +18,4 @@ I also added goodies from my Variation Transitions device for quantized value se
 
 Random and cycle modes' buttons can be auto-triggered for constant movement with quantization enabled. 
 
-Mind that with quantization and/or ramping enabled the buttons won't do anything until transport is running. 
+Mind that with quantization enabled the buttons won't do anything until transport is running. 
