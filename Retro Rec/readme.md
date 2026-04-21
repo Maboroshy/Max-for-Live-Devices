@@ -27,11 +27,6 @@ The save buttons' functionality requires them to act as toggles. They are design
 
 The device enforces and uses "1 bar" global launch quantization.  
   
-It is also hosted on GitHub with my other free devices:  
-https://github.com/Maboroshy/Max-for-Live-Devices/  
-  
-Licensed under the GNU Lesser General Public License v3.0 (LGPL‑3.0).
-
 Changelog:
 ### v1.1 - 15.04.2026
 - Implemented overdub mode for MIDI tracks. Save buttons now act as toggles.
