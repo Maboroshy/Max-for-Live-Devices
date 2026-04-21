@@ -19,3 +19,8 @@ I also added goodies from my Variation Transitions device for quantized value se
 Random and cycle modes' buttons can be auto-triggered for constant movement with quantization enabled. 
 
 Mind that with quantization enabled the buttons won't do anything until transport is running. 
+
+### v1.1 - 21.04.2026
+- Fixed MIDI messages passthrough for MIDI version
+- Removed redundant .00 in LED screen values 
+- Implemented percentage buttons visual feedback
