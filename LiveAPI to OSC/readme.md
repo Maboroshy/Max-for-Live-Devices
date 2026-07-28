@@ -30,7 +30,7 @@ Example:
 ## Parameter value scaling
 Parameter `value` property units, minimum and maximum varies between parameters. 
 
-To provide more stable mapping the device introduced `/scaled_value` parameter property which gets and sets parameter value as a floating-point number between 0 and 1 of the parameter’s range.
+To provide more stable mapping the device introduces `/scaled_value` parameter property which gets and sets parameter value as a floating-point number between 0 and 1 of the parameter’s range.
 
 Examples:  
 `/live_set/tracks/0/devices/0/parameters/1/scaled_value` - gets the value of the second parameter of the first device on the first track as a floating-point number  
