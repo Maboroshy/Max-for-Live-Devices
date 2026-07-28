@@ -20,7 +20,7 @@ Examples:
 ## Observing
 With `Auto Add` enabled, any OSC message adds an observer for the address if it's observable.
 
-Observed addresses are saved within the Live set. Use `View` button to view and edit the saved observers. Press the `Reload` to apply changes.
+Observed addresses are saved within the Live set. Use `View` button to view and edit the saved observers, press the `Reload` to apply changes.
 
 If you don't want to use `Auto Add` you can set observers manually. Add `/observe` to the address and send `1` argument to add and `0` argument to remove an observer.
 
@@ -42,7 +42,7 @@ The device supports `*` matching for digit only address items.
 Examples:  
 `/live_set/tracks/*/name` - gets comma separated list of all track names  
 `/live_set/tracks/\*/devices/*/name` - gets the list of all the top-level device names on all tracks  
-`/live_set/tracks/0/devices/*/parameters/0/value 0` - disable all the top-level devices on the first track 
+`/live_set/tracks/0/devices/*/parameters/0/value 0` - disables all the top-level devices on the first track 
 
 ## Extra addresses and actions
 When device is loaded, it sends a message to `/live_set/startup` address.
