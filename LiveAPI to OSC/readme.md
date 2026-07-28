@@ -5,7 +5,7 @@ This device exposes the whole LiveAPI as OSC addresses. You can map Live control
 ![](https://github.com/Maboroshy/Max-for-Live-Devices/blob/main/LiveAPI%20to%20OSC/LiveAPI%20to%20OSC.png?raw=true)
 
 ## How to Use
-- Find object's property or function path you want to use in  [Live Object Model documentation](https://docs.cycling74.com/legacy/max8/vignettes/live_object_model). Put `/` at the beginning and replace spaces with `/` for its OSC address. `live_set tracks 0 mixer_device volume value` should become `/live_set/tracks/0/mixer_device/volume/value`.
+- Find object's property or function path you want to use in [Live Object Model documentation](https://docs.cycling74.com/apiref/lom/). Put `/` at the beginning and replace spaces with `/` for its OSC address. `live_set tracks 0 mixer_device volume value` should become `/live_set/tracks/0/mixer_device/volume/value`.
 - You can enable `Max for Live Developer Mode` in Live's `Options` menu and use `Copy Max for Live path` item in controls' context menus to get their addresses.
 - Send an OSC message with no arguments to get a property value. 
 - Send an OSC message with an argument to set the property value. For easier parameter mapping you can use the parameter value scaling described below. 
