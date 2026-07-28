@@ -49,7 +49,7 @@ When device is loaded, it sends a message to `/live_set/startup` address.
 
 Use `/live_set/beat` address to get/observe the current beat number in measure. 
 
-There are [Max JS API](https://docs.cycling74.com/apiref/js/liveapi/) actions you can add to an abject or property address:
+There are [Max JS API](https://docs.cycling74.com/apiref/js/liveapi/) actions you can add to an address:
 
 `/children` - returns object's children IDs  
 `/getcount` - returns the number of the object's children  
