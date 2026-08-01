@@ -24,6 +24,8 @@ Observed addresses are saved within the Live set. Use `View` button to view and 
 
 If you don't want to use `Auto Add` you can set observers manually. Add `/observe` to the address and send `1` argument to add and `0` argument to remove an observer.
 
+If the observed object at the address changes, the new object ID is sent with `/id` appended to the address to distinguish it from a value.
+
 Example:  
 `/live_set/current_song_time/observe 1` - set an observer for current song time in beats
 
@@ -60,5 +62,8 @@ There are [Max JS API](https://docs.cycling74.com/apiref/js/liveapi/) actions yo
 `/proptype` - returns the type of the property or child  
 `/type` - the object type
 
-
-
+## Changelog
+### v1.1 - 01.08.2026
+- Fixed message echoing (still double messages on setting the observer)
+- Fixed observer handling
+- Implemented observer ID changes notifications
