@@ -4,7 +4,7 @@ I wanted this device each time I messed up a loop recording.
   
 When that happens, you have to finish the record, delete the clip and start again, hoping you get it right this time. Annoying when your do it live.  
   
-With this device you just play and only hit save button once, when you know it sounds right. It saves the number of played bars you've set.  Made with live looping in mind.
+With this device you just play and only hit save button once, when you know it sounds right. It saves the number of played bars you've set for the button. Made with live looping in mind.
   
 Works for MIDI and audio.  
 
