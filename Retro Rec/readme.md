@@ -32,3 +32,7 @@ Changelog:
 - Implemented overdub mode for MIDI tracks. Save buttons now act as toggles.
 - Fixed disable device handling.
 - Improved stability.
+
+### v1.2 - 05.08.2026
+- Improved parameter banks for better Push experience.
+- Improved stability.
