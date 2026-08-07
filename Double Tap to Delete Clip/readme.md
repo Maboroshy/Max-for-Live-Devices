@@ -1,6 +1,7 @@
 # Double Tap to Delete Clip
 
-This device deletes a session clip when you double tap it - fire the clip to play and then abort it. Does the same for scenes.  
+Double tapping a session clip deletes it, same for scenes.  
+First tap fires a clip to play, second tap aborts it, that's where deleting happens.  
 Pay attention to the launch quantization position. If the clip starts playing before the second tap, it won't be deleted.  
 The device works with the first 64 tracks.
 
