@@ -43,7 +43,7 @@ The device supports `*` matching for digit only address items.
 
 Examples:  
 `/live_set/tracks/*/name` - gets comma separated list of all track names  
-`/live_set/tracks/\*/devices/*/name` - gets the list of all the top-level device names on all tracks  
+`/live_set/tracks/*/devices/*/name` - gets the list of all the top-level device names on all tracks  
 `/live_set/tracks/0/devices/*/parameters/0/value 0` - disables all the top-level devices on the first track 
 
 ## Extra addresses and actions
