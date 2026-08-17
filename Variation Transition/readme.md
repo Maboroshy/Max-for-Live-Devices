@@ -12,3 +12,8 @@ The device attaches to a rack and acts as a variation selector. It makes a smoot
 - Mappable slider for transition progress (disable "Auto" launch and "Duration" for slider only control)
 - Buttons to select the first 8 variations and to move to the next or previous variation, with an option to work only on armed track for shared mappings
 - Сustom duration settings for each of the first 8 variations
+
+## Changelog
+### v1.1 - 17.08.2026
+- Fixed issues with macro 16 transitions
+- Improved button lables
