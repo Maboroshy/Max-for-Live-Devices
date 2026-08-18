@@ -16,4 +16,4 @@ The device attaches to a rack and acts as a variation selector. It makes a smoot
 ## Changelog
 ### v1.1 - 17.08.2026
 - Fixed issues with macro 16 transitions
-- Improved button lables
+- Improved button labels
