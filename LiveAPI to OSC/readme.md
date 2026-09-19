@@ -42,8 +42,8 @@ Examples:
 The device supports `*` matching for digit only address items. 
 
 Examples:  
-`/live_set/tracks/*/name` - gets comma separated list of all track names  
-`/live_set/tracks/*/devices/*/name` - gets the list of all the top-level device names on all tracks  
+`/live_set/tracks/*/name` - gets a list of all track names  
+`/live_set/tracks/*/devices/*/name` - gets a list of all the top-level device names on all tracks  
 `/live_set/tracks/0/devices/*/parameters/0/value 0` - disables all the top-level devices on the first track 
 
 ## Extra addresses and actions
@@ -67,3 +67,8 @@ There are [Max JS API](https://docs.cycling74.com/apiref/js/liveapi/) actions yo
 - Fixed message echoing (still double messages on setting the observer)
 - Fixed observer handling
 - Implemented observer ID changes notifications
+
+### v1.2 - 19.09.2026
+- `/id` responses keep `id` item to mimic other ID type properties behavior
+- `/observe` requests now get observer status as a response along with current property value
+- `/*/` address requests get a response with list of values instead of a list-like string  
