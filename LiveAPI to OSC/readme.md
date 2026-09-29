@@ -47,9 +47,12 @@ Examples:
 `/live_set/tracks/0/devices/*/parameters/0/value 0` - disables all the top-level devices on the first track 
 
 ## Extra addresses and actions
-When device is loaded, it sends a message to `/live_set/startup` address.
+The device provides extra address:
 
-Use `/live_set/beat` address to get/observe the current beat number in measure. 
+`/live_set/startup` - device startup notification   
+`/live_set/beat` - get/observe the current beat number in measure  
+`/live_set/view/selected_track_index` - get/set/observe selected track index  
+`/live_set/view/selected_scene_index` - get/set/observe selected scene index  
 
 There are [Max JS API](https://docs.cycling74.com/apiref/js/liveapi/) actions you can add to an address:
 
@@ -57,7 +60,7 @@ There are [Max JS API](https://docs.cycling74.com/apiref/js/liveapi/) actions yo
 `/getcount` - returns the number of the object's children  
 `/getstring` - returns property of the object as a string  
 `/id` - returns the object's ID  
-`/info` - returns a description of the object, including id, type, children, properties and functions  
+`/info` - returns a description of the object, including ID, type, children, properties and functions  
 `/path` -  returns the object's path  
 `/proptype` - returns the type of the property or child  
 `/type` - the object type
@@ -71,4 +74,7 @@ There are [Max JS API](https://docs.cycling74.com/apiref/js/liveapi/) actions yo
 ### v1.2 - 19.09.2026
 - `/id` responses keep `id` item to mimic other ID type properties behavior
 - `/observe` requests now get observer status as a response along with current property value
-- `/*/` address requests get a response with list of values instead of a list-like string  
+- `/*/` address requests get a response with list of values instead of a list-like string
+
+### v1.3 - 29.09.2026
+- Implemented `/live_set/view/selected_track_index` and `/live_set/view/selected_scene_index` extra addresses
