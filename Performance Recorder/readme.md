@@ -2,6 +2,8 @@
 
 This is a device you put on a main track to record an audio input and quickly save it to a file.  
 
+![](https://github.com/Maboroshy/Max-for-Live-Devices/blob/main/Performance%20Recorder/Performance%20recorder%20gh.png?raw=true)
+
 That's what makes it special:
 - The device continuously records audio to a RAM buffer. You can set the length up to 2 hours. Looping recording. No record file clutter. Doesn't waste SSD space and lifespan.
 - Save the record to a file with a press of the mappable button. Files named as the current date, time and bpm (if transport is running). 
