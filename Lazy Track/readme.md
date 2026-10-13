@@ -13,3 +13,7 @@ When placed in a rack, it disables all devices in the chain it's placed in.
 There are limitations: 
 - Visible track volume mixer required to observe track's output level. 
 - The audio version observes MIDI input only while the track is selected - use the MIDI version instead. 
+
+Changelog:
+### v1.1 - 13.10.2026
+- Improved stability.
