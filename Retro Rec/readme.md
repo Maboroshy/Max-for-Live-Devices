@@ -36,3 +36,6 @@ Changelog:
 ### v1.2 - 05.08.2026
 - Improved parameter banks for better Push experience.
 - Improved stability.
+
+### v1.3 - 13.10.2026
+- Improved stability.
