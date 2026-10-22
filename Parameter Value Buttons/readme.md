@@ -25,3 +25,6 @@ Mind that with quantization enabled the buttons won't do anything until transpor
 - Fixed MIDI messages passthrough for MIDI version
 - Removed redundant .00 in LED screen values 
 - Implemented percentage buttons visual feedback
+
+### v1.2 - 22.10.2026
+- Fixed layout issues in MIDI version
