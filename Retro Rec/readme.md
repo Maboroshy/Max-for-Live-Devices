@@ -4,7 +4,7 @@ I wanted this device each time I messed up a loop recording.
   
 When that happens, you have to finish the record, delete the clip and start again, hoping you get it right this time. Annoying when your do it live.  
   
-With this device you just play and only hit save button once, when you know it sounds right. It saves the number of played bars you've set for the button. Made with live looping in mind.
+With this device you just play and only hit save button once, when you know it sounds right. It saves the number of played bars you've set for the button. Made with live looping improvisation in mind.
   
 Works for MIDI and audio.  
 
@@ -19,7 +19,7 @@ Here is what it does in detail:
   
 The actions above can be disabled individually. You can use only manually started clip recording.  
   
-These actions take some time, somewhere between 100 ms and 200 ms on my system. If they started after clip record ending they would swallow the first notes of the clip playback. The "Saving Offset" setting solves that by starting the actions slightly before the record ending. You can tune this setting for your system, but make sure to have a safety margin. Clip trimming happens in UI thread, so it's affected by CPU overload.  
+These actions take some time, somewhere between 100 ms and 200 ms on my system. If they started after clip record ending they may swallow the first notes of the clip playback. The "Saving Offset" setting solves that by starting the actions slightly before the record ending. You can tune this setting for your system, but make sure to have a safety margin. Clip trimming happens in UI thread, so it's affected by CPU overload.  
   
 The device only affects the track it is placed on, so you can use different options for each track. Add the device to each track you want to retro record. Save buttons on devices on different tracks can share controller mappings. Devices on unarmed tracks won't react to the buttons.  
 
@@ -29,13 +29,17 @@ The device enforces and uses "1 bar" global launch quantization.
   
 Changelog:
 ### v1.1 - 15.04.2026
-- Implemented overdub mode for MIDI tracks. Save buttons now act as toggles.
-- Fixed disable device handling.
-- Improved stability.
+- Implemented overdub mode for MIDI tracks. Save buttons now act as toggles
+- Fixed disable device handling
+- Improved stability
 
 ### v1.2 - 05.08.2026
 - Improved parameter banks for better Push experience.
-- Improved stability.
+- Improved stability
 
 ### v1.3 - 13.10.2026
-- Improved stability.
+- Improved stability
+
+### v1.3 - 23.10.2026
+- Improved stability
+- Deleting clip during or right after recording creates a new temp clip, independent from `Create Temp Clip` setting 
