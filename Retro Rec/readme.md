@@ -40,6 +40,6 @@ Changelog:
 ### v1.3 - 13.10.2026
 - Improved stability
 
-### v1.3 - 23.10.2026
+### v1.4 - 23.10.2026
 - Improved stability
 - Deleting clip during or right after recording creates a new temp clip, independent from `Create Temp Clip` setting 
